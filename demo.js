@@ -30,8 +30,7 @@ list.addEventListener("click",(e)=>{
      })
 
     let search=document.getElementById("filter");
-          let tex=search.value;
-          console.log(tex);
+         
     search.addEventListener("input",(e)=>{
        var text = e.target.value.toLowerCase();
         // Get lis
